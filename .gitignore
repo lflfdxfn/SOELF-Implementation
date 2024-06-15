@@ -1,0 +1,18 @@
+# project files
+.idea
+__pycache__
+
+# datasets files
+DataStream/offline_datasets/*.csv
+DataStream/*.mat
+DataStream/label_mask/*
+DataStream/*.jpg
+!/DataStream/label_mask/.gitkeep
+
+# predictions files
+predictions/*
+!predictions/.gitkeep
+
+# results files
+results/*
+!results/.gitkeep
