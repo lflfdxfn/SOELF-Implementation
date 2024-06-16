@@ -58,9 +58,33 @@
      * `output_path`: where to store label mask files.
    * Run `label_mask_synthetic.m` and `real_mask_real_world.m`.
 
-
-## Experiments
+## Run Experiments
+   * Run `main.py`.
 
 ## Useful Information
-### Files of Results
+### Files of Results - After you run `main.py`...
+   * `Analyze`:
+     * `middle_runs_result`: a `.pyd` file storing the sliding recalls and the sliding g-mean;
+     * `plot_analyze`: plots to analyze predictions on a data stream.
+   * `predictions`: predictions for an algorithm on a data stream.
+   * `results`: the final average of G-mean for an algorithm on a data stream.
 ### Parameter Settings
+   * `exp_methods`: a list of methods you would like to run;
+   * `compare_methods`: a list of comparison methods (in string);
+   * `origin_data`: a list of original names of synthetic data streams;
+   * `real_data`: a list of names of real-world data streams;
+   * `data_path`: the path to data streams;
+   * `mask_path`: the path to the label of mask to simulate the incomplete supervision;
+   * `middle_path`: the path to store middle results;
+   * `plot_output_path`: the path to store plots;
+   * `comp_output_path`: the path to store final results;
+   * `pred_path`: the path to store predictions;
+   * `scenarios`: the list of numbers of synthetic scenarios you would like to run;
+   * `n_cases`: the list of numbers of cases for corresponding scenarios;
+   * `window_size`: the size of window in average of G-mean;
+   * `init_indexes`: the size of initial training dataset;
+   * `weakly_m`: the hyperparameter $l$;
+   * `weakly_p`: the hyperparameter $pr$;
+   * `if_train_model`: whether to train a new model;
+   * `if_parallel`: whether running in parallel;
+   * `n_runs`: the number of runs.

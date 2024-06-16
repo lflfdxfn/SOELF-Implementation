@@ -9,6 +9,10 @@ DataStream/label_mask/*
 DataStream/*.jpg
 !/DataStream/label_mask/.gitkeep
 
+# analyze files
+Analyze/*
+!Analyze/.gitkeep
+
 # predictions files
 predictions/*
 !predictions/.gitkeep
