@@ -1,4 +1,5 @@
 # SOELF
+Official implementation of SOELF: "Online Ensemble Learning Framework for Class Evolution under Incomplete Supervision" in the proceedings of IJCNN 2026
 
 ## Dependencies
 * Python (in `requirements.txt`):
@@ -88,3 +89,16 @@
    * `if_train_model`: whether to train a new model;
    * `if_parallel`: whether running in parallel;
    * `n_runs`: the number of runs.
+
+## Full Paper
+The full paper can be found at.
+
+## Citation
+```bibtex
+@INPROCEEDINGS{zhi2026soelf,
+  author={Cao, Zhi and Zhang, Shuyi and Lin, Chin-Teng and Yao, Xin},
+  booktitle={2026 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Online Ensemble Learning Framework for Class Evolution under Incomplete Supervision}, 
+  year={2026}
+}
+```
